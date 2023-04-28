@@ -61,3 +61,90 @@ header {
     color: #f0f0e6;
     font-size: 2rem;
   }
+
+  /* ////........Home Content........//// */
+
+.home-content .name {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #07374a;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .home-content .name h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  
+  .home-content .name p {
+    color: #f0f0e6;
+    font-size: 1.5rem;
+  }
+  
+  .angle-down-icon {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    border: 3px solid #07374a;
+    border-radius: 50%;
+  }
+  
+  .angle-down-icon a {
+    text-decoration: none;
+    color: #07374a;
+    padding: 1rem;
+  }
+  
+  /* ////........About Me........//// */
+  
+  .about-me {
+    background-color: #07374a;
+    padding: 6rem 0;
+  }
+  
+  .about-me .about-heading {
+    color: #25b79f;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .about-content img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    color: #f0f0e6;
+    padding: 0 2.3rem;
+    text-align: center;
+  }
+  
+  .skills .skills-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #25b79f;
+    text-align: center;
+  }
+  
+  .about-me .about-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-content .left-content {
+    flex-basis: 45%;
+    text-align: center;
+  }
+  
+  .about-content .right-content {
+    flex-basis: 45%;
+  }
