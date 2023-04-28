@@ -476,3 +476,236 @@ header {
     height: 92vh;
   }
   
+  .contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #25b79f;
+    padding-bottom: 0.5rem;
+  }
+  
+  .contact-content .mail {
+    color: #f0f0e6;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+  
+  .contact-content .links {
+    color: #25b79f;
+    padding: 0.5rem;
+    padding-bottom: 1.8rem;
+    font-size: 1rem;
+  }
+  
+  
+  
+  
+  
+  .contact-content a {
+    text-decoration: none;
+    color: #25b79f;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contact-content a:hover {
+    color: #f0f0e6;
+  }
+  
+  /* ////......Media query......//// */
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 60%;
+    }
+  
+    .about-content .left-content {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    .about-content .right-content {
+      flex-basis: 100%;
+    }
+  
+    .skills {
+      width: 100%;
+    }
+  
+    .skills-bar .bar .progress-line {
+      width: 100%;
+    }
+  
+    .work-arrow {
+      display: none;
+    }
+  
+    .right-content h1 {
+      margin-top: 3.2rem;
+    }
+  
+    .proj-1 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .proj-1 img {
+      height: 230px;
+      width: 290px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .proj-2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .proj-2 img {
+      height: 250px;
+      width: 290px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .work-arrow-2 a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: #25b79f;
+      display: block;
+      text-align: center;
+    }
+  
+    .contact-content {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 768px) {
+    html {
+      font-size: 65%;
+    }
+  
+    .about-content .left-content {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    .about-content .right-content {
+      flex-basis: 100%;
+    }
+  
+    .skills {
+      width: 100%;
+    }
+  
+    .skills-bar .bar .progress-line {
+      width: 100%;
+    }
+  
+    .work-arrow {
+      display: none;
+    }
+  
+    .right-content h1 {
+      margin-top: 3.2rem;
+    }
+  
+    .proj-1 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .proj-1 img {
+      height: 240px;
+      width: 290px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .proj-2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .proj-2 img {
+      height: 240px;
+      width: 290px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .work-arrow-2 a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: #25b79f;
+      display: block;
+      text-align: center;
+    }
+  
+    .contact-content {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    html {
+      font-size: 70%;
+    }
+  
+    .about-content .left-content {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    .about-content .right-content {
+      flex-basis: 100%;
+    }
+  
+    .skills {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .work-arrow {
+      display: none;
+    }
+  
+    .left-content h1 {
+      margin-top: 3.2rem;
+      text-align: center;
+    }
+  
+    .right-content h1 {
+      margin-top: 3.2rem;
+      text-align: center;
+    }
+  
+    .work-arrow-2 a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: #25b79f;
+      display: block;
+      text-align: center;
+    }
+  
+    .contact-content {
+      width: 100%;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .header {
+      height: 90vmax;
+    }
+  }
