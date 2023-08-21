@@ -655,7 +655,20 @@ header {
       margin-bottom: 0.5rem;
     }
   
-    .work-arrow-2 a {
+  
+    .proj-3 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .proj-3 img {
+      height: 250px;
+      width: 290px;
+      margin-bottom: 0.5rem; 
+    }
+    
+    work-arrow-2 a {
       font-size: 1.3rem;
       text-decoration: none;
       color: #25b79f;
