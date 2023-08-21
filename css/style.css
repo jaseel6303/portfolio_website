@@ -721,6 +721,19 @@ header {
       width: 290px;
       margin-bottom: 0.5rem;
     }
+    
+    .proj-3 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .proj-3 img {
+      height: 240px;
+      width: 290px;
+      margin-bottom: 0.5rem;
+    }
+  
   
     .work-arrow-2 a {
       font-size: 1.3rem;
